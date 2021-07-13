@@ -619,7 +619,7 @@ body{
     outline: none;
     background-color: #3d3d3d;
     text-align: center;
-    vertical-align: middle;
+    vertical-align: middle;  
 }
 @media only screen and (min-width:768px){ /* N */
     #header-menu-button-limit-field{
@@ -701,7 +701,6 @@ main{
     height: auto;
     margin: 0 auto;
     padding: 0;
-    top: 148px;
     left: 0;
     border: none;
     outline: none;
