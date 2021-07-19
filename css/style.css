@@ -833,6 +833,7 @@ footer{
     max-width: -ms-calc(100%-10px);
     height: auto;
     margin: 0 auto;
+    margin-right: 10px;
     padding: 0;
     margin-bottom: 5px;
     padding-bottom: 5px;
@@ -850,3 +851,110 @@ footer{
     text-decoration: none;
     vertical-align: top;
 }
+@media only screen and (min-width:1200px){ /* XL*/
+    .footer-menus-columns-field{
+        width: 25%;
+        min-width: 25%;
+        max-width: 25%;
+     }
+}
+@media only screen and (min-width:992px) and (max-width:1199px){ /* L */
+    .footer-menus-columns-field{
+       width: 25%;
+       min-width: 25%;
+       max-width: 25%;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:991px){ /* N */
+    .footer-menus-columns-field{
+        width: 25%;
+        min-width: 25%;
+        max-width: 25%;
+    }
+}
+@media only screen and (min-width:576px) and (max-width:767px){ /* S */
+    .footer-menus-columns-field{
+        width: 50%;
+        min-width: 50%;
+        max-width: 50%;
+    }
+}
+@media only screen and (max-width:574px){ /* XS */
+    .footer-menus-columns-field{
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+    }
+}
+.footer-menus-columns-menus-field a{
+    font-family: "Arial, Helvetica", Neue, Helvetica, sans-serif;
+    color: #646464;
+    line-height: 1.5;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 600;
+    text-align: left;
+    text-decoration: none;
+    vertical-align: top;
+ }
+ .footer-menus-columns-menus-field a:link, .footer-menus-columns-menus-field a:visited,.footer-menus-columns-menus-field a:active{
+    font-family: "Arial, Helvetica", Neue, Helvetica, sans-serif;
+    color: #646464;
+    line-height: 1.5;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 600;
+    text-align: left;
+    text-decoration: none;
+    vertical-align: top;
+ }
+ .footer-menus-columns-menus-field a:hover{
+    font-family: "Arial, Helvetica", Neue, Helvetica, sans-serif;
+    color: #000;
+    line-height: 1.5;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 600;
+    text-align: left;
+    text-decoration: none;
+    vertical-align: top;
+    text-decoration: underline;
+ }
+ .footer-menus-columns-menus-field img{
+     display: inline-block;
+     float: left;
+     width: 16px;
+     min-width: 16px;
+     max-width: 16px;
+     height: 16px;
+     margin: 0 auto;
+     padding: 0;
+     padding-right: 5px;
+     border: none;
+     outline: none;
+ }
+ @media only screen and (min-width:1200px){ /* XL*/
+     .footer-menus-columns-menus-field img{
+        padding-top: 2px;
+      }
+ }
+ @media only screen and (min-width:992px) and (max-width:1199px){ /* L */
+     .footer-menus-columns-menus-field img{
+        padding-top: 2px;
+     }
+ }
+ @media only screen and (min-width:768px) and (max-width:991px){ /* N */
+     .footer-menus-columns-menus-field img{
+        padding-top: 1px;
+     }
+ }
+ @media only screen and (min-width:576px) and (max-width:767px){ /* S */
+     .footer-menus-columns-menus-field img{
+        padding-top: 1px;
+     }
+ }
+ @media only screen and (max-width:574px){ /* XS */
+     .footer-menus-columns-menus-field img{
+        padding-top: 1px;
+     }
+ }
